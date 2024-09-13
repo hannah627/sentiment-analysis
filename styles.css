@@ -1,0 +1,218 @@
+/* colors */
+.toolTip .toolTipText,
+.scoredWord .toolTipText {
+    /* background-color: black; */
+    background-color: #193819;
+}
+
+.toolTip .toolTipText::after,
+.scoredWord .toolTipText::after {
+    border-color: #193819 transparent transparent transparent;
+}
+
+header,
+.superColumnHeader,
+.superRowHeader,
+.graphOptionsContainer {
+    background-color: #31572C;
+}
+
+nav li a:hover:not(:has(img)),
+#activeNavbarLink:hover {
+    background-color: #3b5b1f;
+}
+
+#activeNavbarLink {
+    background-color: #456924;
+}
+
+
+input::file-selector-button,
+/* .graphOptionsButtonsContainer > button, */
+input:checked,
+th,
+nav ul {
+    background-color: #4F772D;
+    accent-color: #4F772D;
+}
+
+a {
+    color: #4F772D;
+}
+
+button,
+#corpusScoresTable {
+    background-color: #709041;
+}
+
+article>section,
+.tableContainer {
+    background-color: #BECE7A;
+}
+
+footer {
+    color: #887c69;
+}
+
+
+
+.explanationSubSections {
+    background-color: #D5E18C;
+}
+
+.explanationSubSections:nth-child(odd) {
+    background-color: #ECF39E;
+}
+
+.explanationSubSections:last-child,
+.subSection,
+.fileResultsHeader,
+.fileResultsContainer {
+    background-color: #F2F7BC;
+}
+
+
+td {
+    background-color: #F5F9CB;
+}
+
+body,
+textarea,
+.scoredTokensGraph,
+#corpusScoresGraph {
+    background-color: #F7FBDA;
+}
+
+
+/* general stylings */
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+label {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+header {
+    padding: 0.5em;
+    color: white;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav img {
+    width: 25px;
+    height: 25px;
+}
+
+nav a:has(img) {
+    padding-bottom: 4px;
+    padding-top: 12px;
+}
+
+
+
+main,
+header,
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+main,
+header {
+    align-items: center;
+}
+
+article,
+footer {
+    margin-top: 1rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+article {
+    width: 80%;
+}
+
+.large-label {
+    font-size: 1.2em;
+}
+
+button {
+    border-radius: 80px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: none;
+}
+
+article>section {
+    padding: 0.75rem;
+    border-radius: 15px;
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+.explanationSubSections {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.explanationSubSections>p {
+    margin-top: 0.25rem;
+    margin-bottom: 0px;
+}
+
+#explanationSection>h2 {
+    margin-bottom: 0.25rem;
+}
